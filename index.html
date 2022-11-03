@@ -90,6 +90,14 @@
   </script>
   <script id="question_view_multi_text_input" type="text/x-handlebars-template">
     <h2>Questions Answered: {{this.current_question}}</h2>
+    <div class ="container">
+      <div class="row">
+          <div>
+            {{this.questionTextBefore}}
+            <input type="text" id="answer_to_first_blank">
+            {{this.questionTextBetween}}
+            <input type="text" id"answer_to_second_blank">
+            {{this.questionTextAfter}} <br><br>
 
   </script>
   <script id ="question_view_checkbox" type="text/x-handlebars-template">

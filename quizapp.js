@@ -87,7 +87,7 @@ async function setQuestionView(appState) {
     appState.current_view = "#end_view";
     return
   }
-  await fetch (`https://my-json-server.typicode.com/anniekia/quizapp/${appState.current_quiz}/${appState.current_question}`)
+  await fetch (`https://my-json-server.typicode.com/anniekia/${appState.current_server}/${appState.current_quiz}/${appState.current_question}`)
     .then(response => response.json())
     .then(data => {
       appState.current_view = `#question_view_${data.questionType}`

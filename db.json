@@ -4,29 +4,421 @@
     "id": 0,
     "questionType": "true_false",
     "questionText": "RAM stands for Random Access Memory",
-    "correctAnswer": "True",
+    "correctAnswer": "true",
     "options" : ["true", "false"]
   },
   {
     "id": 1,
     "questionType": "true_false",
     "questionText": "Java is an Object Oriented programming language",
-    "correctAnswer": "True",
-        "options" : ["true", "false"]
-  }
+    "correctAnswer": "true",
+    "options" : ["true", "false"]
+  },
+  {
+    "id": 2,
+    "questionType": "text_input",
+    "questionText": "What the programming languages used for cpp files? (make sure to Capitalize)",
+    "correctAnswer": "C Plus Plus",
+    "explanation": "cpp is an acronym for C Plus PLus"
+  },
+  {
+    "id": 3,
+    "questionType": "multiple_choice",
+    "questionText": "Which of these is the HTML tag for making text bold?",
+    "correctAnswer": "<b>",
+    "options": ["<p>", "<bold>", "<b>", "<div>"],
+    "explanation": "<bold> is not an html tag, and the other tags have different purposes, so it must be <b>"
+  },
+  {
+    "id": 4,
+    "questionType": "text_input",
+    "questionText": "What does CPU stand for? (make sure the capitalize)",
+    "correctAnswer": "Central Processing Unit",
+    "explanation": "CPU is an acronym for Central Processing Unit as it processes most data in the computer"
+  },
+  {
+    "id": 5,
+    "questionType": "multiple_choice",
+    "questionText": "What Operating System is developed and maintained by Microsoft?",
+    "correctAnswer": "Windows",
+    "options": ["Windows", "MacOS", "Linux", "Android"],
+    "explanation": "Windows is owned by microsoft, while the others are owned by Apple, Linus Torvalds, and Google respectively"
+  },
+  {
+"id": 6,
+"questionType": "multiple_choice",
+"questionText": "6. Which is not a Java data type?",
+"correctAnswer": "decimal",
+"options": ["String", "int", "double", "decimal"],
+"explanation": "Floats and doubles store decimal
+values, but decimal itself is not a data type; String and int
+are also both valid data types."
+},
+{
+"id": 7,
+"questionType": "text_input",
+"questionText": "7. _______________ is credited with
+being the very first computer programmer. (Full name,
+please)",
+"correctAnswer": "Ada Lovelace",
+"answerFieldId": "answer_to_question",
+"explanation": "Mathematician & writer Ada Lovelace
+(1815-1852) wrote the world's first algorithm to the
+Analytical Machine. The very first computer programmer
+was a woman!"
+},
+{
+"id": 8,
+"questionType": "multiple_choice",
+"questionText": "8. Which OS is developed & used by
+Apple Inc.?",
+"correctAnswer": "iOS",
+"options": ["Unix", "iOS", "Windows", "Ubuntu"],
+"explanation": "macOS is Apple's operating system for
+personal computers & workstations; iOS is a system for
+mobile devices."
+},
+{
+"id": 9,
+"questionType": "checkbox",
+"questionText": "9. Which of the following are object-
+oriented languages?",
+"correctAnswer": ["Python","C++", "Ruby"],
+"options": ["Python", "C", "C++", "Ruby"],
+"explanation": "C is an imperative procedural
+language; it does not use classes, inheritance,
+polymorphism, or other features of OOP."
+},
+{
+"id": 10,
+"questionType": "text_input",
+"questionText": "10. GIF stands for ________
+Interchange Format. (Please capitalize)",
+"correctAnswer": "Graphics",
+"answerFieldId": "answer_to_question",
+"explanation": "GIF stands for Graphics Interchange
+Format."
+},
+{
+"id": 11,
+"questionType": "multi_text_input",
+"questionTextBefore":"11. GUI stands for ",
+"questionTextBetween":" User ",
+"questionTextAfter":".",
+"correctAnswer": ["Graphical", "Interface"],
+"answerFieldId1":"answer_to_first_blank",
+"answerFieldId2":"answer_to_second_blank",
+"explanation": "GUI stands for Graphical User
+Interface."
+},
+{
+"id": 12,
+"questionType": "multiple_choice",
+"questionText": "12. A binary system uses powers of
+_____.",
+"correctAnswer": "2",
+"options": ["4", "2", "16", "8"],
+"explanation": "As indicated by the prefix bi-, binary
+systems use powers of 2."
+},
+{
+"id": 13,
+"questionType": "checkbox",
+"questionText": "13. Which of the following are
+functions of an operating system?",
+"correctAnswer": ["I/O management","Job scheduling",
+"Memory management"],
+"options": ["I/O management", "Database
+management", "Job scheduling", "Memory management"],
+"explanation": "Database management is the
+responsibility of a DBMS, not an operating system.
+Operating systems do handle I/O management, job
+scheduling & memory management."
+},
+{
+"id": 14,
+"questionType": "multiple_choice",
+"questionText": "14. Which of the following is the
+ascending order of data hierarchy?",
+"correctAnswer": "Bit-Byte-Field-Record-File-
+Database",
+"options": ["Bit-Byte-Field-Record-File-Database",
+"Field-Byte-Bit-Record-Database-File", "Bit-Byte-
+Record-Field-File-Database", "Byte-Bit-Record-Field-
+File-Database"],
+"explanation": "Bits make up bytes, which make fields,
+which compose records, which together create files,
+which ultimately form databases."
+},
+{
+"id": 15,
+"questionType": "text_input",
+"questionText": "15. SQL stands for Standard _______
+Language.",
+"correctAnswer": "Query",
+"answerFieldId": "answer_to_question",
+"explanation": "SQL stands for Standard Query
+Language"
+},
+{
+"id": 16,
+"questionType": "multiple_choice",
+"questionText": "16. A virus is a computer __________.",
+"correctAnswer": "Program",
+"options": ["File", "Network", "Program", "Database"],
+"explanation": "A virus is a typically destructive
+PROGRAM that replicates itself by modifying other
+computer programs & inserting its own code."
+},
+{
+"id": 17,
+"questionType": "checkbox",
+"questionText": "17. Which of the following operations
+are performed on RAM?",
+"correctAnswer": ["Read and write"],
+"options": ["Read", "Write & edit", "Read and write", "It
+depends on the user"],
+"explanation": "Both read & write operations can be
+performed on RAM."
+},
+{
+"id": 18,
+"questionType": "true_false",
+"questionText": "18. Python requires the use of ;'s at
+the end of lines of code.",
+"correctAnswer": "False",
+"options": ["True", "False"],
+"explanation": "Unlike a language like Java, Python
+DOES NOT require the use of ;'s to end lines of code."
+},
+{
+"id": 19,
+"questionType": "true_false",
+"questionText": "19. Hash maps/hash tables store key-
+value pairs.",
+"correctAnswer": "True",
+"options": ["True", "False"],
+"explanation": "Data IS inserted into hash maps using
+key-value pairs."
+}
   ],
   "quiz2": [
     {
-      "id": 0,
-      "questionType": "true_false",
-      "questionText": "RAM stands for Random Access Memory",
-      "correctAnswer": "True"
-    },
+"id": 0,
+"questionType": "multiple_choice",
+"questionText": "20. This is used to find the length of
+a Java ArrayList.",
+"correctAnswer": ".size()",
+"options": [".length", ".size()", ".length()",
+".lengthOf()"],
+"explanation": "The .size() method is used to
+determine the length of Java ArrayLists; .length is used
+for Arrays."
+},
+
     {
-      "id": 1,
-      "questionType": "true_false",
-      "questionText": "Java is an Object Oriented programming language",
-      "correctAnswer": "True"
-    }
+"id": 1,
+"questionType": "checkbox",
+"questionText": "1. Select all valid Java loops.",
+"correctAnswer": ["Do-while","While", "For"],
+"options": ["Do-while", "If", "While", "For"],
+"explanation": "Do-while, white, and for loops are all
+valid in Java; if STATEMENTS are not loops."
+},
+{
+"id": 2,
+"questionType": "multiple_choice",
+"questionText": "2. What does CSS stand for?",
+"correctAnswer": "Cascading Style Sheet",
+"options": ["Cascading Style Sheet", "Color and Style
+Sheet", "Cascade Stylesheet", "None of the above"],
+"explanation": "CSS stands for Cascading Style
+Sheet."
+},
+{
+"id": 3,
+"questionType": "true_false",
+"questionText": "3. HTML determines the content of
+a webpage.",
+"correctAnswer": "True",
+"options": ["True", "False"],
+"explanation": "HTML DOES outline the content of a
+webpage - CSS styles it, and JS adds functionality."
+},
+{
+"id": 4,
+"questionType": "text_input",
+"questionText": "4. 1024 bits is equal to _______
+bytes.",
+"correctAnswer": "128",
+"answerFieldId": "answer_to_question",
+"explanation": "1024 bits is equal to 128 bytes.
+(There are 8 bits in each byte)"
+},
+{
+"id": 5,
+"questionType": "multiple_choice",
+"questionText": "5. Select the command line/terminal
+command that allows you to navigate up one directory.",
+"correctAnswer": "cd ..",
+"options": ["cd /", "cd ~", "cd ..", "cd -"],
+"explanation": "cd .. is the command used to
+navigate up one directory. The others are valid commands
+but have other uses."
+},
+{
+"id": 6,
+"questionType": "checkbox",
+"questionText": "6. Select all valid methods of tree
+traversal.",
+"correctAnswer": ["Inorder","Preorder", "Postorder"],
+"options": ["Inorder", "Reorder", "Preorder",
+"Postorder"],
+"explanation": "Reorder is not a form of tree traversal;
+the 3 others are all valid."
+},
+{
+"id": 7,
+"questionType": "multiple_choice",
+"questionText": "7. Which of these is referred to as
+the 'brain' of the computer?",
+"correctAnswer": "Central Processing Unit",
+"options": ["Hard Drive", "Central Processing Unit",
+"Database", "System Software"],
+"explanation": "As the 'brain of the computer', the
+CPU retreives & executes instructions."
+},
+{
+"id": 8,
+"questionType": "true_false",
+"questionText": "8. The SQL COMBINE clause is used
+to combine tables based on a shared column.",
+"correctAnswer": "False",
+"options": ["True", "False"],
+"explanation": "The JOIN clause is what's used to
+combine tables based on a shared column."
+},
+{
+"id": 9,
+"questionType": "multi_text_input",
+"questionTextBefore":"9. Alan ",
+"questionTextBetween":"'s cryptoanalytical machine
+'the bombe' broke ",
+"questionTextAfter":", Nazi Germany's cipher device.
+(Please capitalize)",
+"correctAnswer": ["Turing", "Enigma"],
+"answerFieldId1":"answer_to_first_blank",
+"answerFieldId2":"answer_to_second_blank",
+"explanation": "Alan Turing is credited with designing
+the machine that broke Enigma."
+},
+{
+"id": 10,
+"questionType": "checkbox",
+"questionText": "10. Check all output devices.",
+"correctAnswer": ["Speaker","Monitor"],
+"options": ["Keyboard", "Speaker", "Monitor",
+"Mouse"],
+"explanation": "Speakers & monitors are output
+devices, while keyboards & mice are input devices."
+},
+{
+"id": 11,
+"questionType": "multiple_choice",
+"questionText": "11. What does DOM stand for?",
+"correctAnswer": "Document Object Model",
+"options": ["Document Objective Model", "Document
+Output Model", "Document Object Model", "Document
+Object Modeling"],
+"explanation": "DOM stands for Document Object
+Model."
+},
+{
+"id": 12,
+"questionType": "multiple_choice",
+"questionText": "12. This animal shares it's name with
+a Python module used to create vector graphics.",
+"correctAnswer": "Turtle",
+"options": ["Lizard", "Snake", "Frog", "Turtle"],
+"explanation": "Turtle is the name of the Python
+module used as a drawingboard to create graphics."
+},
+{
+"id": 13,
+"questionType": "true_false",
+"questionText": "13. Flexbox is a CSS layout model.",
+"correctAnswer": "True",
+"options": ["True", "False"],
+"explanation": "The Flexible Box Model (aka. Flexbox)
+IS a CSS layout model."
+},
+{
+"id": 14,
+"questionType": "text_input",
+"questionText": "14. How many iterations are there to
+this Java for loop? : for(int i = 1; i < 20; i++){...}",
+"correctAnswer": "19",
+"answerFieldId": "answer_to_question",
+"explanation": "If this loop went from i = 0 to i < 20 it
+would have 20 iterations; it instead starts at 1, so there
+are 19."
+},
+{
+"id": 15,
+"questionType": "true_false",
+"questionText": "15. == can be used to compare the
+content of Java Strings for equality.",
+"correctAnswer": "False",
+"options": ["True", "False"],
+"explanation": "Java Strings should NOT be
+compared using ==, but by using .equals() intead."
+},
+{
+"id": 16,
+"questionType": "multiple_choice",
+"questionText": "16. Which of the following is correct
+syntax for printing 'Hello World' in Java?",
+"correctAnswer": "System.out.println('Hello World');",
+"options": ["print('Hello World');",
+"System.out.println('Hello World');", "System.out('Hello
+World');", "echo('Hello World');"],
+"explanation": "The correct syntax for this Java print
+statement is: System.out.println('Hello World');"
+},
+{
+"id": 17,
+"questionType": "true_false",
+"questionText": "17. Java is short for JavaScript.",
+"correctAnswer": "False",
+"options": ["True", "False"],
+"explanation": "Java is NOT short for Javascript. The
+two languages are completely different."
+},
+{
+"id": 18,
+"questionType": "checkbox",
+"questionText": "18. Check all valid Java variable
+names.",
+"correctAnswer":
+["myName","myName1","my_name"],
+"options": ["myName", "1myName", "myName1",
+"my_name"],
+"explanation": "Variable names cannot start with
+numbers; therefore, all of the chocies are valid except for
+1myName."
+},
+{
+"id": 19,
+"questionType": "multi_text_input",
+"questionTextBefore":"19. RDBMS stand for ",
+"questionTextBetween":" ",
+"questionTextAfter":" Management System. (Please
+capitalize)",
+"correctAnswer": ["Relational", "Database"],
+"answerFieldId1":"answer_to_first_blank",
+"answerFieldId2":"answer_to_second_blank",
+"explanation": "RDBS stands for Relational Database
+Management System."
+}
   ]
 }

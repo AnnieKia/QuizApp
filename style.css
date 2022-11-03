@@ -1,0 +1,128 @@
+
+
+.myHeader {
+  border: 5px outset white;
+  background-color: #5CDB95;
+  text-align: center;
+
+    width: 100%;
+
+border-style: ridge;
+
+}
+
+html{
+    background-color: #8EE4AF;
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+@media (min-width:786px){
+  body{
+    position: absolute;
+    width:55%;
+    height:75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .myButton{
+    border: none;
+  }
+}
+body{
+  border: 5px outset white;
+  margin: 0;
+  padding:10px;
+
+  background-color: #5CDB95;
+
+}
+
+
+
+.completed {
+  text-decoration: line-through;
+}
+.myText{
+  background-color: #5CDB95;
+border-color: white;
+border-style: solid;
+color: white;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+}
+.myButton{
+  background-color: #5CDB95;
+
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+@media (max-width: 785px){
+
+  body{
+    min-height: 100vh;
+  }
+  *{
+    color: black;
+  }
+
+.myButton{
+  border: 2px solid white;
+  margin-top:2px;
+}
+}
+
+
+
+
+
+
+h1 {
+  font-size: 30
+}
+
+
+
+/* font stuff not important */
+@font-face {
+  font-family: 'opendyslexic';
+  src: url('Fonts/OpenDyslexic-Regular.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url('Fonts/OpenDyslexic-Italic.otf');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url('Fonts/OpenDyslexic-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url('Fonts/OpenDyslexic-BoldItalic.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+* {
+  font-size:15px;
+  line-height:200%;
+      color: #000000;
+  font-family:opendyslexic !important;
+}

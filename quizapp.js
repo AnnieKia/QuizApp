@@ -8,6 +8,7 @@ const appState = {
   },
   studentName: "",
   correctAnswers: 0,
+  current_server: ""
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -26,7 +27,7 @@ function handle_widget_event(e){
   if(e.target.id != "StudentName"){
   if(appState.current_view == "#intro_view"){
       appState.studentName = document.getElementById("StudentName").value;
-
+      appState.current_server = e.target.dataset.server
       appState.current_quiz= e.target.dataset.action
       appState.current_question = 0
   }else{

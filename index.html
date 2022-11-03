@@ -50,8 +50,8 @@
         </div>
         <div class="row">
           <div class="col">
-            <button class="btn btn-primary pull-left" data-action="answer" data-answer="{{this.options.[0]}}">{{this.options.[0]}}</button>
-            <button class="btn btn-danger float-right" data-action="answer" data-answer="{{this.options.[1]}}">{{this.options.[1]}}</button>
+            <button class="btn btn-primary pull-left" data-action="answer" data-answer="True">True</button>
+            <button class="btn btn-danger float-right" data-action="answer" data-answer="False">False</button>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@
       <div class ="row">
         <div class ="col">
           <div>
-            <span style="text-align:center"> {{this.questionText}} </span>
+            <span style="text-align:center"> {{this.questionText}} </span> <br><br>
             <input type="radio" name = "{{this.questionText}}" value="{{this.options.[0]}}"> {{this.options.[0]}}<br>
             <input type="radio" name = "{{this.questionText}}" value="{{this.options.[1]}}"> {{this.options.[1]}}<br>
             <input type="radio" name = "{{this.questionText}}" value="{{this.options.[2]}}"> {{this.options.[2]}}<br>
@@ -81,7 +81,7 @@
           <div class="col">
             <div>
               <span style="text-align:center"> {{this.questionText}} </span>
-              <input type="text" id="answer_to_question" name="answer"><br><br>
+              <input type="text" id="answerFieldId" name="answer"><br><br>
               <button class="btn btn-danger float-right" data-action="submit">Submit</button>
             </div>
           </div>
@@ -96,8 +96,12 @@
             {{this.questionTextBefore}}
             <input type="text" id="answer_to_first_blank">
             {{this.questionTextBetween}}
-            <input type="text" id"answer_to_second_blank">
+            <input type="text" id="answer_to_second_blank">
             {{this.questionTextAfter}} <br><br>
+            <button class="btn btn-danger float-right" data-action="submit">Submit</button>
+          </div>
+        </div>
+      </div>
 
   </script>
   <script id ="question_view_checkbox" type="text/x-handlebars-template">
@@ -112,28 +116,31 @@
       </div>
       <div class="row">
         <div class="col">
-            <input type="checkbox" id="option 1" data-action="answer" data-answer="{{this.options.[0]}}">
+            <input type="checkbox" name ="{{this.id}}" id="option 1" data-answer="{{this.options.[0]}}">
             <label for="option 1">{{this.options.[0]}}</label>
-            <input type="checkbox" data-action="answer" data-answer="{{this.options.[1]}}">
-            <label for="option 1">{{this.options.[1]}}</label>
-            <input type="checkbox" data-action="answer" data-answer="{{this.options.[2]}}">
-            <label for="option 1">{{this.options.[2]}}</label>
-            <input type="checkbox" data-action="answer" data-answer="{{this.options.[3]}}">
-            <label for="option 1">{{this.options.[3]}}</label>
+            <input type="checkbox" name ="{{this.id}}" id="option 2" data-answer="{{this.options.[1]}}">
+            <label for="option 2">{{this.options.[1]}}</label>
+            <input type="checkbox" name ="{{this.id}}" id="option 3" data-answer="{{this.options.[2]}}">
+            <label for="option 3">{{this.options.[2]}}</label>
+            <input type="checkbox" name ="{{this.id}}" id="option 4" data-answer="{{this.options.[3]}}">
+            <label for="option 4">{{this.options.[3]}}</label>
             <button class="btn btn-danger float-right" data-action="submit">Submit</button>
           </div>
         </div>
       </div>
     </div>
   </script>
-
+  <script id = "correct_view" type="text/x-handlebars-template">
+    <span style="font-size:20px; text-align:center"> CORRECT! </span>
+  </script>
   <script id="feedback_view" type="text/x-handlebars-template">
     <div class="container">
       <div class="row">
           <div class="col">
             <div>
-              <span id="feedback_string">Correct | Incorrect </span>
-              <button class="btn btn-danger float-right" data-action="ok"> OK</button>
+              <span id="feedback_string">Incorrect</span>
+              <span id="explanation">{{this.explanation}}</span>
+              <button class="btn btn-danger float-right" data-action="submit"> OK</button>
             </div>
           </div>
         </div>
@@ -145,8 +152,8 @@
         <div class="row">
             <div class="col">
               <div>
-                <span> Thank you for taking the quiz</span>
-                <button class="btn btn-danger float-right" data-action="start_again">Start Again</button>
+                <span> Thank you for taking the quiz {{this.studentName}}, your score is {{this.correctAnswers}}/20</span>
+                <button class="btn btn-danger float-right" data-action="submit">Start Again</button>
               </div>
             </div>
           </div>

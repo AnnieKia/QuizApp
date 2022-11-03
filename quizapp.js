@@ -6,7 +6,8 @@ const appState = {
     action: "quiz",
     answer: "null"
   },
-  studentName: ""
+  studentName: "",
+  correctAnswers: 0,
 }
 
 document.addEventListener('DOMContentLoaded', () => {

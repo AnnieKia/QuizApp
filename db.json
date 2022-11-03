@@ -12,7 +12,7 @@
     "questionText": "Java is an Object Oriented programming language",
     "correctAnswer": "True"
   }
-  ]
+],
   "quiz2": [
     "id" : 1,
     "questionType": "true_false",

@@ -3,7 +3,7 @@
   {
     "id": 1,
     "questionType": "true_false",
-    "questionText": "RAM stands for 'Random Access Memory'",
+    "questionText": "RAM stands for Random Access Memory",
     "correctAnswer": "True"
   },
   {
@@ -12,5 +12,11 @@
     "questionText": "Java is an Object Oriented programming language",
     "correctAnswer": "True"
   }
+  ]
+  "quiz2": [
+    "id" : 1,
+    "questionType": "true_false",
+    "questionText": "RAM stands for Random Access Memory",
+    "correctAnswer": "True"
   ]
 }

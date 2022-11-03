@@ -1,13 +1,13 @@
 {
 "quiz1": [
   {
-    "id": 1,
+    "id": 0,
     "questionType": "true_false",
     "questionText": "RAM stands for Random Access Memory",
     "correctAnswer": "True"
   },
   {
-    "id": 2,
+    "id": 1,
     "questionType": "true_false",
     "questionText": "Java is an Object Oriented programming language",
     "correctAnswer": "True"
@@ -15,13 +15,13 @@
   ],
   "quiz2": [
     {
-      "id": 1,
+      "id": 0,
       "questionType": "true_false",
       "questionText": "RAM stands for Random Access Memory",
       "correctAnswer": "True"
     },
     {
-      "id": 2,
+      "id": 1,
       "questionType": "true_false",
       "questionText": "Java is an Object Oriented programming language",
       "correctAnswer": "True"

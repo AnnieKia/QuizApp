@@ -14,9 +14,11 @@
   }
 ],
   "quiz2": [
+    {
     "id" : 1,
     "questionType": "true_false",
     "questionText": "RAM stands for Random Access Memory",
     "correctAnswer": "True"
+    }
   ]
 }
